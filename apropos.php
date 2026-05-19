@@ -17,10 +17,14 @@
         <section class="card">
             <h2>Informations Étudiant</h2>
             <ul>
-                <li><strong>Groupe :</strong>TPH</li>
-                <li><strong>Identifiant MMI :</strong>mmi25h13</li>
-                <li><strong>Prénom :</strong>Gabyn</li>
-                <li><strong>Nom :</strong>Procot-Harmand</li>
+                <li><strong>Groupe :</strong> TPH</li>
+                <li><strong>Identifiant MMI :</strong> mmi25h13</li>
+                <li><strong>Prénom :</strong> Gabyn</li>
+                <li><strong>Nom :</strong> Procot-Harmand</li>
+                <li><strong>Mise en ligne :</strong> <?php 
+                    date_default_timezone_set('Europe/Paris');
+                    echo date('d/m/Y à H:i'); 
+                ?></li>
             </ul>
         </section>
     </main>
